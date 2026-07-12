@@ -16,14 +16,11 @@ export default defineConfig({
       output: {
         manualChunks: {
           // Vendor chunks
-          "vendor-radix": ["@radix-ui/themes"],
+          "vendor-goi-react": ["@ogcio/design-system-react"],
+          "vendor-goi-theme": ["@ogcio/theme-govie"],
           "vendor-react": ["react", "react-dom"],
           "vendor-router": ["@tanstack/react-router"],
           "vendor-query": ["@tanstack/react-query"],
-          "vendor-fontawesome": [
-            "@fortawesome/react-fontawesome",
-            "@fortawesome/free-solid-svg-icons",
-          ],
         },
       },
     },
