@@ -9,7 +9,7 @@ export default defineConfig({
     allowedHosts: ["dev"],
   },
   build: {
-    outDir: "../src/web-dist",
+    outDir: "./dist",
     emptyOutDir: true,
     chunkSizeWarningLimit: 600,
     rollupOptions: {
