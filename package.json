@@ -1,0 +1,42 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Website for the Unnamed Village",
+  "homepage": "https://github.com/unnamedVillage/web#readme",
+  "bugs": {
+    "url": "https://github.com/unnamedVillage/web/issues"
+  },
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unnamedVillage/web.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "clean:build": "rm -rf dist",
+    "preview": "vite preview",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
+  },
+  "dependencies": {
+    "@ogcio/design-system-react": "^1.42.0",
+    "@ogcio/theme-govie": "^1.21.7",
+    "@radix-ui/themes": "^3.3.0",
+    "@tanstack/react-query": "^5.101.2",
+    "@tanstack/react-router": "^1.170.17",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.8",
+    "@vitejs/plugin-react-swc": "^4.3.0",
+    "oxfmt": "^0.58.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.11"
+  }
+}
