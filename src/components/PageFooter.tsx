@@ -12,17 +12,24 @@ const PageFooter = () => {
         secondarySlot={
           <div>
             <div>
-              Unnamedvilla.ge is not associated with the Government of Ireland <br />
+              Unnamedvilla.ge is not associated with the Government of Ireland{" "}
+              <br />
               or any entity associated with the Government of Ireland.
             </div>
             <div>
               Built using{" "}
-              <Link href="https://ds.services.gov.ie/">Government of Ireland Design System</Link>
+              <Link href="https://ds.services.gov.ie/">
+                Government of Ireland Design System
+              </Link>
             </div>
           </div>
         }
         utilitySlot={
-          <Stack direction={{ base: "column", md: "row" }} gap={4} justify="center"></Stack>
+          <Stack
+            direction={{ base: "column", md: "row" }}
+            gap={4}
+            justify="center"
+          ></Stack>
         }
       />
     </>

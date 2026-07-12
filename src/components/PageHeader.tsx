@@ -25,14 +25,20 @@ const PageHeader = () => {
       <Header variant="default" aria-label="Site header" id="govieHeader">
         <HeaderLogo>
           <a href="/" aria-label="unnamedvilla.ge home">
-            <Container className="gi-hidden gi-h-12 gi-w-auto sm:gi-block" role="navigation">
+            <Container
+              className="gi-hidden gi-h-12 gi-w-auto sm:gi-block"
+              role="navigation"
+            >
               <img
                 src={broken}
                 alt={"BrokenImage"}
                 className="gi-hidden gi-h-12 gi-w-auto sm:gi-block"
               />
             </Container>
-            <Container className="gi-block gi-h-10 gi-w-auto sm:gi-hidden" role="navigation">
+            <Container
+              className="gi-block gi-h-10 gi-w-auto sm:gi-hidden"
+              role="navigation"
+            >
               <img
                 src={broken}
                 alt={"BrokenImage"}
@@ -43,13 +49,22 @@ const PageHeader = () => {
         </HeaderLogo>
         <HeaderTitle>Unnamed Village</HeaderTitle>
         <HeaderPrimaryMenu>
-          <HeaderMenuItemLink showItemMode="desktop-only" onClick={() => navigate({ to: "/wip" })}>
+          <HeaderMenuItemLink
+            showItemMode="desktop-only"
+            onClick={() => navigate({ to: "/wip" })}
+          >
             News
           </HeaderMenuItemLink>
-          <HeaderMenuItemLink showItemMode="desktop-only" onClick={() => navigate({ to: "/wip" })}>
+          <HeaderMenuItemLink
+            showItemMode="desktop-only"
+            onClick={() => navigate({ to: "/wip" })}
+          >
             Resident Services
           </HeaderMenuItemLink>
-          <HeaderMenuItemLink href="https://kotp.unnamedvilla.ge" showItemMode="desktop-only">
+          <HeaderMenuItemLink
+            href="https://kotp.unnamedvilla.ge"
+            showItemMode="desktop-only"
+          >
             King of the Phone
           </HeaderMenuItemLink>
           <HeaderMenuItemButton
@@ -78,10 +93,16 @@ const PageHeader = () => {
               <ListItem onClick={() => navigate({ to: "/wip" })} label="News" />
             </li>
             <li>
-              <ListItem onClick={() => navigate({ to: "/wip" })} label="Resident Services" />
+              <ListItem
+                onClick={() => navigate({ to: "/wip" })}
+                label="Resident Services"
+              />
             </li>
             <li>
-              <ListItem href="https://kotp.unnamedvilla.ge" label="King of the Phone" />
+              <ListItem
+                href="https://kotp.unnamedvilla.ge"
+                label="King of the Phone"
+              />
             </li>
           </ul>
         </DrawerBody>
