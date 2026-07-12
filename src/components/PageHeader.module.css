@@ -1,0 +1,6 @@
+/* The header image has a white stripe going through it, which looks odd without a background visible around the edge of the image */
+.headerImage {
+  background-color: white;
+  padding: 4px;
+  border-radius: 4px;
+}

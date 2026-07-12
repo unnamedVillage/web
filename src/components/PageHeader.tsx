@@ -14,6 +14,7 @@ import { MenuIcon } from "@ogcio/design-system-react/icons";
 import { useState } from "react";
 import broken from "../images/broken.svg";
 import { useNavigate } from "@tanstack/react-router";
+import styles from "./PageHeader.module.css";
 
 const PageHeader = () => {
   const navigate = useNavigate();
@@ -32,7 +33,7 @@ const PageHeader = () => {
               <img
                 src={broken}
                 alt={"BrokenImage"}
-                className="gi-hidden gi-h-12 gi-w-auto sm:gi-block"
+                className={`gi-hidden gi-h-12 gi-w-auto sm:gi-block ${styles.headerImage}`}
               />
             </Container>
             <Container
