@@ -43,7 +43,7 @@ const PageHeader = () => {
         </HeaderLogo>
         <HeaderTitle>Unnamed Village</HeaderTitle>
         <HeaderPrimaryMenu>
-          <HeaderMenuItemLink showItemMode="desktop-only" onClick={() => navigate({ to: "/wip" })} >
+          <HeaderMenuItemLink showItemMode="desktop-only" onClick={() => navigate({ to: "/wip" })}>
             News
           </HeaderMenuItemLink>
           <HeaderMenuItemLink showItemMode="desktop-only" onClick={() => navigate({ to: "/wip" })}>

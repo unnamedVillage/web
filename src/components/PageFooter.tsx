@@ -11,9 +11,14 @@ const PageFooter = () => {
         }}
         secondarySlot={
           <div>
-              <div>Unnamedvilla.ge is not associated with the Government of Ireland <br />
-                  or any entity associated with the Government of Ireland.</div>
-              <div>Built using <Link href="https://ds.services.gov.ie/">Government of Ireland Design System</Link></div>
+            <div>
+              Unnamedvilla.ge is not associated with the Government of Ireland <br />
+              or any entity associated with the Government of Ireland.
+            </div>
+            <div>
+              Built using{" "}
+              <Link href="https://ds.services.gov.ie/">Government of Ireland Design System</Link>
+            </div>
           </div>
         }
         utilitySlot={
