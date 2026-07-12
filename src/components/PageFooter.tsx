@@ -1,4 +1,4 @@
-import { Footer, Stack } from "@ogcio/design-system-react";
+import { Footer, Link, Stack } from "@ogcio/design-system-react";
 import broken from "../images/broken.svg";
 
 const PageFooter = () => {
@@ -11,8 +11,9 @@ const PageFooter = () => {
         }}
         secondarySlot={
           <div>
-            Unnamedvilla.ge is not associated with the Irish Government <br /> or any entity
-            associated with the Irish Government.{" "}
+              <div>Unnamedvilla.ge is not associated with the Government of Ireland <br />
+                  or any entity associated with the Government of Ireland.</div>
+              <div>Built using <Link href="https://ds.services.gov.ie/">Government of Ireland Design System</Link></div>
           </div>
         }
         utilitySlot={

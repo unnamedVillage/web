@@ -43,7 +43,7 @@ const PageHeader = () => {
         </HeaderLogo>
         <HeaderTitle>Unnamed Village</HeaderTitle>
         <HeaderPrimaryMenu>
-          <HeaderMenuItemLink href="#" showItemMode="desktop-only">
+          <HeaderMenuItemLink showItemMode="desktop-only" onClick={() => navigate({ to: "/wip" })} >
             News
           </HeaderMenuItemLink>
           <HeaderMenuItemLink showItemMode="desktop-only" onClick={() => navigate({ to: "/wip" })}>
@@ -75,7 +75,7 @@ const PageHeader = () => {
         <DrawerBody>
           <ul>
             <li>
-              <ListItem href="#" label="News" />
+              <ListItem onClick={() => navigate({ to: "/wip" })} label="News" />
             </li>
             <li>
               <ListItem onClick={() => navigate({ to: "/wip" })} label="Resident Services" />
