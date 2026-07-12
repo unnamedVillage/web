@@ -52,13 +52,13 @@ const PageHeader = () => {
         <HeaderPrimaryMenu>
           <HeaderMenuItemLink
             showItemMode="desktop-only"
-            onClick={() => navigate({ to: "/wip" })}
+            onClick={() => navigate({ to: "/news" })}
           >
             News
           </HeaderMenuItemLink>
           <HeaderMenuItemLink
             showItemMode="desktop-only"
-            onClick={() => navigate({ to: "/wip" })}
+            onClick={() => navigate({ to: "/resident-services" })}
           >
             Resident Services
           </HeaderMenuItemLink>

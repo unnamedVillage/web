@@ -19,9 +19,15 @@ export const homeRoute = createRoute({
   component: Home,
 });
 
-export const wipRoute = createRoute({
+export const newsRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/wip",
+  path: "/news",
+  component: Wip,
+});
+
+export const residentServicesRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/resident-services",
   component: Wip,
 });
 
@@ -29,5 +35,9 @@ const rootRoute = createRootRoute({
   component: () => <App />,
 });
 
-const routeTree = rootRoute.addChildren([homeRoute, wipRoute]);
+const routeTree = rootRoute.addChildren([
+  homeRoute,
+  newsRoute,
+  residentServicesRoute,
+]);
 export const router = createRouter({ routeTree });
