@@ -43,7 +43,7 @@ const PageHeader = () => {
               <img
                 src={broken}
                 alt={"BrokenImage"}
-                className="gi-hidden gi-h-12 gi-w-auto sm:gi-block"
+                className={`gi-block gi-h-10 gi-w-auto sm:gi-hidden ${styles.headerImage}`}
               />
             </Container>
           </a>
