@@ -91,11 +91,11 @@ const PageHeader = () => {
         <DrawerBody>
           <ul>
             <li>
-              <ListItem onClick={() => navigate({ to: "/wip" })} label="News" />
+              <ListItem onClick={() => navigate({ to: "/news" })} label="News" />
             </li>
             <li>
               <ListItem
-                onClick={() => navigate({ to: "/wip" })}
+                onClick={() => navigate({ to: "/resident-services" })}
                 label="Resident Services"
               />
             </li>
