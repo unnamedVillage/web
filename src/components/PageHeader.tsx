@@ -62,6 +62,12 @@ const PageHeader = () => {
           >
             Resident Services
           </HeaderMenuItemLink>
+            <HeaderMenuItemLink
+            href="https://fedi.semtex.net/@unnamedVillage"
+            showItemMode="desktop-only"
+          >
+            Fedi
+          </HeaderMenuItemLink>
           <HeaderMenuItemLink
             href="https://kotp.unnamedvilla.ge"
             showItemMode="desktop-only"
@@ -97,6 +103,12 @@ const PageHeader = () => {
               <ListItem
                 onClick={() => navigate({ to: "/resident-services" })}
                 label="Resident Services"
+              />
+            </li>
+            <li>
+              <ListItem
+                href="https://fedi.semtex.net/@unnamedVillage"
+                label="Fedi"
               />
             </li>
             <li>
